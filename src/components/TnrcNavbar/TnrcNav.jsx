@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, DropdownItem, DropdownTrigger,NavbarMenu, NavbarMenuToggle,NavbarMenuItem, Dropdown, DropdownMenu} from "@nextui-org/react";
-import {ChevronDown, Lock, Activity, Flash, Server, TagUser, Scale} from "./Icons.jsx";
+// import {ChevronDown, Lock, Activity, Flash, Server, TagUser, Scale} from "./Icons.jsx";
 import TNRCLogo from "../../../public/tnrc-logo-320.png";
 import Image from "next/image.js";
 import { IoIosArrowDown } from "react-icons/io";
@@ -23,15 +23,15 @@ import { useState } from "react";
 
 
 export default function TnrcNav() {
-  const icons = {
-    chevron: <ChevronDown fill="currentColor" size={16} />,
-    scale: <Scale className="text-warning" fill="currentColor" size={30} />,
-    lock: <Lock className="text-success" fill="currentColor" size={30} />,
-    activity: <Activity className="text-secondary" fill="currentColor" size={30} />,
-    flash: <Flash className="text-primary" fill="currentColor" size={30} />,
-    server: <Server className="text-success" fill="currentColor" size={30} />,
-    user: <TagUser className="text-danger" fill="currentColor" size={30} />,
-  };
+  // const icons = {
+  //   chevron: <ChevronDown fill="currentColor" size={16} />,
+  //   scale: <Scale className="text-warning" fill="currentColor" size={30} />,
+  //   lock: <Lock className="text-success" fill="currentColor" size={30} />,
+  //   activity: <Activity className="text-secondary" fill="currentColor" size={30} />,
+  //   flash: <Flash className="text-primary" fill="currentColor" size={30} />,
+  //   server: <Server className="text-success" fill="currentColor" size={30} />,
+  //   user: <TagUser className="text-danger" fill="currentColor" size={30} />,
+  // };
 
 
 

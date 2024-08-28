@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import canadianimg from "../../../public/candian-imgs.jpg";
 import communityimg from "../../../public/tnrc-capacity.jpg";
 import familyimg from "../../../public/family-img.jpg"
+import wolfimg from "../../../public/tnrc-wolf.jpg"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -91,6 +92,83 @@ return(<>
     </div> 
 
 </SwiperSlide>
+
+
+
+
+
+<SwiperSlide className="flex justify-center w-[100%] object-fill  ">
+
+<Image className=" relative block object-fill mix-blend-multiply  "  src={wolfimg}  alt="canadian image tnrc" />
+<div className="absolute top-1/3 left-10">
+    {/* <Card isBlurred className="bg:blur-sm bg-gradient-to-r from-[#12396ba9] to-[#d91ef6a9] pl-5 pt-7 pb-5 pr-6 p-2 "> */}
+    <Card isBlurred className="bg:blur-sm bg-gradient-to-r from-[#2a2a15a9] to-[#806532a9] pl-5 pt-7 pb-5 pr-6 p-2 ">
+        <CardHeader>
+            <div><h2 className=" font-Mulish text-xl py-1 text-[#FFFFFF] font-extrabold]">Celebrating Our Community & Culture</h2>
+            <h1 className="text-7xl text-white font-bold">Small Grants Fund</h1></div>
+            
+            
+        </CardHeader>
+        <CardBody>
+            <div>
+           <ul className="text-xl font-bold text-[#F7DF76]">
+            <li>
+            Cultural events
+            </li>
+
+            
+            
+
+            <li>
+            Community gardening projects
+            </li>
+
+            <li>
+            Low income recreational activities
+            </li>
+
+            <li>
+            Community beautification initiatives
+            </li>
+
+            <li>
+            Programs that engage elders and seniors
+            </li>
+
+            <li>
+            Mentorship/Apprenticeship programs for youths
+            </li>
+
+            <li>
+            Programs that help assist in the area of community safety
+            </li>
+            
+            
+             </ul> 
+
+            </div>
+        
+
+        </CardBody>
+
+        <CardFooter>
+        <Button className=" font-Mulish font-bold text-2xl text-white bg-gradient-to-r from-[#0b3866] to-[#e81cff] p-6" variant="flat">
+             Know More
+          </Button>
+        </CardFooter>
+    </Card></div> 
+
+</SwiperSlide>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -322,31 +400,34 @@ return(<>
 <div className="absolute top-1/3 left-10">
     <Card isBlurred className="bg:blur-sm bg-gradient-to-r from-[#12396ba9] to-[#d91ef6a9] pl-5 pt-7 pb-5 pr-6 p-2 ">
         <CardHeader>
-            <div><h2 className=" font-Mulish text-xl py-1 text-[#FFFFFF] font-extrabold]">Celebrating Our Community & Culture</h2>
+            <div><h2 className=" font-Mulish text-xl py-1 text-[#FFFFFF] font-extrabold]">Leveraging and Supporting our Volunteer Base</h2>
             <h1 className="text-7xl text-white font-bold">Community Pride</h1></div>
             
         </CardHeader>
         <CardBody>
             <div>
            <ul className="text-xl font-bold text-[#F7DF76]">
+
+           
+
             <li>
-            Cleanliness and beautification
+            Capacity Building Initiatives for Not-for-profits
             </li>
 
             
             
 
             <li>
-            Neighbourhood Renewal
-            </li>
+                    Social Enterprises
+                    </li>
 
-            <li>
-            Cultural Programming
-            </li>
+                    <li>
+                    Cultural Programming
+                    </li>
 
-            <li>
-            Promoting of community and community events
-            </li>
+                    <li>
+                    Charities & Co-ops
+                    </li>
             
              </ul> 
 
@@ -363,6 +444,11 @@ return(<>
     </Card></div> 
 
 </SwiperSlide>           
+
+
+
+
+           
 
 
 

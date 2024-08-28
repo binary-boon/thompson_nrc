@@ -192,6 +192,11 @@ export default function TnrcNav() {
         <FaSquareXTwitter  className="cursor-pointer bg-[#0C3967] rounded-md"  fill="#FDB849" size={30} />
         </a>
 
+        <a href="https://www.linkedin.com/company/thompson-neighborhood-renewal-corporation/">
+        <IoLogoLinkedin className="cursor-pointer bg-[#0C3967] rounded-md" fill="#FDB849" size={30} />
+        </a>
+
+
         
 
         </NavbarContent>

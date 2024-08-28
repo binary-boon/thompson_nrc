@@ -75,7 +75,7 @@ export default function BlogIntro() {
                     <Image className="rounded-md" src={jewel} height={350} width={350} alt="blog img"/>
                     <div className="absolute  bottom-0 transition ease-in-out delay-150 text-center rounded-md p-1 bg-[#113F6B] hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-[350px]">
                     <h1 className="text-[#B1EDE8] mb-1 font-bold">TNRC Presents</h1>
-                    <h3 className="text-white">Celebrating Local Artists, Artisans, and Crafters at the Small Business Expo</h3>
+                    <h3 className="text-white">Celebrating Local Artists, Artisans, and Crafters at the 13th Small Business Expo</h3>
                     <Button className="bg-white text-black mt-5 font-bold mb-2">Read More</Button>
 
                     </div>

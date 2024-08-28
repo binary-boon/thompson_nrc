@@ -94,23 +94,23 @@ export default function Footer(){
         </div>
 
         <div className="w-[100%] flex flex-row justify-center mx-4 p-5 ">
-        <a href="https://www.facebook.com/profile.php?id=100090357615922">
+        <a href="https://www.facebook.com/profile.php?id=100090357615922" target="_blank">
         <FaFacebookSquare className="mx-4 fill-[#0C3967]" size={30} />
         </a>
         
-        <a href="https://www.linkedin.com/company/thompson-neighborhood-renewal-corporation/">
+        <a href="https://www.linkedin.com/company/thompson-neighborhood-renewal-corporation/" target="_blank">
         <IoLogoLinkedin className="mx-4 fill-[#310A31] " size={35} />
         </a>
 
-            <a href="https://www.instagram.com/thompsonnrc_/">
+            <a href="https://www.instagram.com/thompsonnrc_/" target="_blank">
         <FaSquareInstagram className="mx-4 fill-[#ff768a]" size={30} />
         </a>
 
-        <a href="https://x.com/Thompsonnrc_">
+        <a href="https://x.com/Thompsonnrc_" target="_blank">
         <FaSquareXTwitter className="mx-4 fill-black" size={30}/>
         </a>
 
-        <a href="mailto:admin@tnrc.ca">
+        <a href="mailto:admin@tnrc.ca" target="_blank">
         <IoIosMail className="mx-4 fill-[#FFD23F]"  size={35} />
         </a>
 

@@ -158,6 +158,11 @@ export default function TnrcNav() {
           Small Grants Fund
         </DropdownItem>
 
+        <DropdownItem className="text-[#FFFFFF]">
+          Families First
+        </DropdownItem>
+
+
         </DropdownMenu>
         </Dropdown>
 
@@ -179,20 +184,20 @@ export default function TnrcNav() {
       </NavbarContent>
 
       <NavbarContent className="ml-16 mr-9" justify="end" >
-            <a href="https://www.facebook.com/profile.php?id=100090357615922">
+            <a href="https://www.facebook.com/profile.php?id=100090357615922" target="_blank">
         <FaFacebookSquare className="cursor-pointer bg-[#0C3967] rounded-md"  fill="#FDB849"  size={30} />
         </a>
         
 
-        <a href="https://www.instagram.com/thompsonnrc_/">
+        <a href="https://www.instagram.com/thompsonnrc_/" target="_blank">
         <FaInstagramSquare className="cursor-pointer bg-[#0C3967] rounded-md"    fill="#FDB849" size={30} />
         </a>
 
-        <a href="https://x.com/Thompsonnrc_?mx=2">
+        <a href="https://x.com/Thompsonnrc_?mx=2" target="_blank">
         <FaSquareXTwitter  className="cursor-pointer bg-[#0C3967] rounded-md"  fill="#FDB849" size={30} />
         </a>
 
-        <a href="https://www.linkedin.com/company/thompson-neighborhood-renewal-corporation/">
+        <a href="https://www.linkedin.com/company/thompson-neighborhood-renewal-corporation/" target="_blank">
         <IoLogoLinkedin className="cursor-pointer bg-[#0C3967] rounded-md" fill="#FDB849" size={30} />
         </a>
 

@@ -16,6 +16,13 @@ const config: Config = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    screens:{
+        xs:"300px",
+        sm:"640px",
+        md:"1080px",
+        lg:"1280px",
+
+    },
     extend: {
       fontFamily: {
         Mulish: ["Mulish", "Regular"],

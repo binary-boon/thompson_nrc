@@ -39,15 +39,15 @@ return(<>
           }}
     
 
-        className="flex font-Mulish w-[100%] h-screen justify-center  "
-      >
+        className="flex font-Mulish w-[100%] h-screen justify-center   ">
+      
         
         
 
         <SwiperSlide className=" relative flex justify-center w-[100%] object-fill ">
             <div className="absolute h-[100%] w-[50%] bg-gradient-to-r from-[#ff1b6b] "/>
 
-<Image className=" relative block object-fill mix-blend-overlay  "  src={canadianimg}  alt="canadian image tnrc" />
+<Image className=" relative block object-fill mix-blend-overlay xs:h-screen xs:object-cover  "  src={canadianimg}  alt="canadian image tnrc" />
 <div className="flex h-[50%] justify-center flex-col absolute top-1/4 left-16 ">
     
        

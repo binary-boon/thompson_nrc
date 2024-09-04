@@ -24,7 +24,7 @@ return (
             </CardBody>
 
             <CardFooter>
-                <Button className="bg-white font-bold hover:bg-[#A8E3E0] hover:text-white" href={"#"}>Learn More</Button>
+                <Button className="bg-white font-bold hover:bg-[#372A6E] hover:text-white" href={"#"}>Learn More</Button>
             </CardFooter>
 
         </Card>

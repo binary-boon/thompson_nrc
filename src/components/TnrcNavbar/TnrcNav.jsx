@@ -76,11 +76,11 @@ export default function TnrcNav() {
 
 
   return (
-    <Navbar isBlurred onMenuOpenChange={`${setIsMenuOpen}  ${setEvent}`} className="relative z-50  bg-[#FFFFFF] w-[95%]  " height={"19ch"}>
+    <Navbar isBlurred onMenuOpenChange={`${setIsMenuOpen}  ${setEvent}`} className="relative z-50  bg-[#FFFFFF] w-[95%] py-4  " height={"19ch"}>
       <NavbarContent className="w-[100%] " >
         
-        <NavbarBrand className="  w-[176px] " >
-          <Image src={TNRCLogo} height={400} width={346} alt="tnrc nav logo" />
+        <NavbarBrand className="sm:w-[174px] sm:h-[120px] xs:w-[174px] xs:h-[120px] md:w-[200px] md:h-[376px] lg:h-[320px] lg:w-[276px]  " >
+          <Image className="sm:w-[174px] sm:h-[120px] xs:w-[174px] xs:h-[120px] md:w-[200px] md:h-[376px] lg:h-[200px] lg:w-[374px]   " src={TNRCLogo}  alt="tnrc nav logo" />
           
         </NavbarBrand>
       </NavbarContent>
@@ -126,7 +126,7 @@ export default function TnrcNav() {
 
 
         <NavbarItem isActive>
-          <Link className=" text-[#372A6E] font-bold text-xl" href="#" >
+          <Link className=" text-[#372A6E] font-bold text-xl" href="/about" >
             About Us
           </Link>
         </NavbarItem>
@@ -183,7 +183,7 @@ export default function TnrcNav() {
 
       </NavbarContent>
 
-      <NavbarContent className="ml-16 mr-9" justify="end" >
+      <NavbarContent className="ml-16 mr-9 xs:hidden sm:hidden md:flex lg:flex" justify="end" >
             <a href="https://www.facebook.com/profile.php?id=100090357615922" target="_blank">
         <FaFacebookSquare className="cursor-pointer bg-[#0C3967] rounded-md"  fill="#FDB849"  size={30} />
         </a>

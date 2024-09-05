@@ -7,9 +7,9 @@ import { Button } from "@nextui-org/react";
 export default function TickerCards(){
 
 return (
-<div className="flex flex-row w-[100] justify-center bg-white p-5 rounded-sm ">
+<div className="flex xs:flex-col md:flex-row lg:flex-row w-[100%]  justify-center bg-white p-5 rounded-sm ">
 
-        <Card className="flex font-Mulish flex-col p-3 m-2 bg-[#FDB849] text-black w-[30%] mx-3">
+        <Card className="flex font-Mulish xs:w-[100%] flex-col p-3 m-2 bg-[#FDB849] text-black w-[30%] md:mx-3 lg:mx-3 xs:mx-0">
             <CardHeader className="text-5xl font-bold">
             <AnimatedCounter  from={0} to={15}/> <span>+</span>
 
@@ -31,7 +31,7 @@ return (
 
 
 
-        <Card className="flex flex-col p-3 m-2 bg-[#FDB849] text-black w-[30%]">
+        <Card className="flex flex-col xs:w-[100%] p-3 m-2 bg-[#FDB849] text-black w-[30%] xs:mx-0 md:mx-3 lg:mx-3">
             <CardHeader className="text-5xl font-bold">
             <AnimatedCounter from={0} to={148}/> <span>+</span>
 
@@ -54,7 +54,7 @@ return (
 
 
 
-        <Card className="flex flex-col p-3 m-2 bg-[#FDB849] text-black w-[30%]">
+        <Card className="flex flex-col xs:w-[100%]  p-3 m-2 bg-[#FDB849] text-black w-[30%] xs:mx-0 md:mx-3 lg:mx-3">
             <CardHeader className="text-5xl font-bold">
             <AnimatedCounter from={0} to={500}/> <span>,000$</span>
 

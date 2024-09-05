@@ -29,23 +29,30 @@ return(
 <div className="flex flex-col w-[100%] h-full justify-center mt-48 my-5">
 
     <div className=" flex flex-col text-center p-5 w-[100%]">
-  <h1 className="text-[#0b3866] justify-center font-extrabold text-6xl   ">Affiliated Organizations</h1>
+  <h1 className="text-[#0b3866] justify-center font-extrabold xs:text-5xl md:text-6xl lg:text-6xl   ">Affiliated Organizations</h1>
 
-  <h2 className="text-black text-3xl mt-5">All the organizations that are Active Towards Our Cause</h2> 
+  <h2 className="text-black xs:text-2xl md:text-3xl lg:text-3xl mt-5">All the organizations that are Active Towards Our Cause</h2> 
   </div>
 
 <Swiper
             spaceBetween={0}
             loop={true}
-            centeredSlides={true}
+            centeredSlides={true} 
+            
             speed={5000}
             autoplay={{
               delay: 0,
               disableOnInteraction: false,
             }}
             slidesPerView={6}
+            breakpoints={{
+              320: { slidesPerView: 2, spaceBetween: 80 },
+              480: { slidesPerView: 3, spaceBetween: 150 },
+              768: { slidesPerView: 3, spaceBetween: 50 },
+              1024: { slidesPerView: 6, spaceBetween: 150 },
+            }}
             modules={[Autoplay]}
-            className="flex flex-row w-[100%]"
+            className="flex  flex-row w-[100%]"
           >
             <SwiperSlide><Image src={Logo1} height={250} width={250} alt="logo image"/></SwiperSlide>
             <SwiperSlide><Image src={Logo2} height={250} width={250} alt="logo image"/></SwiperSlide>

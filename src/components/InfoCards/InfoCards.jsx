@@ -29,8 +29,8 @@ export default function InfoCards() {
         <>
         <div className="flex flex-col justify-center text-center my-6 mt-48 mb-24 ">
 
-                <h1 className="text-[#0b3866] text-6xl font-bold mb-5">Community Bulletin Board</h1>
-                <h2 className="font-Mulish text-black text-3xl ">Stay informed and connected with the latest news, events, and initiatives from Thompson Neighborhood Renewal Corporation.</h2>
+                <h1 className="text-[#0b3866] xs:text-5xl md:text-6xl lg:text-6xl font-bold mb-5">Community Bulletin Board</h1>
+                <h2 className="font-Mulish text-black xs:px-4 xs:text-2xl  md:text-3xl lg:text-3xl  ">Stay informed and connected with the latest news, events, and initiatives from Thompson Neighborhood Renewal Corporation.</h2>
 
         </div>
 
@@ -39,6 +39,15 @@ export default function InfoCards() {
         slidesPerView={5}
         spaceBetween={30}
         freeMode={true}
+        
+        breakpoints={{
+            320: { slidesPerView: 1, spaceBetween: 80 },
+            480: { slidesPerView: 3, spaceBetween: 150 },
+            768: { slidesPerView: 3, spaceBetween: 50 },
+            1024: { slidesPerView: 4, spaceBetween: 100 },
+          }}
+
+
         pagination={{
           clickable: true,
         }}

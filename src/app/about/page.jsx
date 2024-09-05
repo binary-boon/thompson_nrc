@@ -127,6 +127,57 @@ export default function About(){
 
 
 
+                
+{/*             
+<div className="flex flex-row w-[100%] h-screen p-8 justify-center">
+
+<div className="flex w-[50%] p-8 ml-7 z-10 ">
+    <Image  className="flex  w-[auto]" src={Vision} alt="Our Values"/>
+</div>
+
+<div className="flex flex-col w-[50%] my-10 mx-3 z-10   ">
+<div className="absolute  bg-gradient-to-r from-[#3A2A72] to-[#119DA4] w-[70%] h-[100vh] mt-8  "/>
+            <h1 className="text-[#FDB849] font-extrabold text-8xl">Community Pride</h1>
+            <ul className="text-[#E5E5E5]  mx-1 my-5">
+            <div className="my-1 p-4 hover:bg-stone-100 hover:text-cyan-950 rounded-md hover:font-bold">
+                <h2 className="text-2xl py-2">Cleanliness & Beautification</h2>
+                <h3 className=" text-lg font-medium" >Ensuring our neighborhoods are clean and visually appealing is at the heart of fostering community pride. By promoting regular clean-ups and beautification projects, we create spaces that residents are proud to call home.</h3>
+             </div>
+             
+             <div className="my-1 p-4 hover:bg-stone-100 hover:text-cyan-950 rounded-md hover:font-bold">
+                <h2 className="text-2xl">Neighborhood Renewal</h2>
+                <h3 className="text-lg font-medium" >Revitalizing and renewing our neighborhoods strengthens the fabric of our community. Through focused efforts on housing, infrastructure, and public spaces, we aim to enhance the quality of life for all residents.</h3>
+             </div>
+             <div className="my-1 p-4 hover:bg-stone-100 hover:text-cyan-950 rounded-md hover:font-bold">
+                <h2 className="text-2xl">Cultural Programming</h2>
+                <h3 className="text-lg font-medium" >Celebrating the rich diversity of our community through cultural events and programs brings us closer together. These initiatives highlight the unique traditions, arts, and heritage that make our neighborhoods vibrant and inclusive.</h3>
+             </div>
+             <div className="my-1 p-4 hover:bg-stone-100 hover:text-cyan-950 rounded-md hover:font-bold " >
+                <h2 className="text-2xl">Promoting of Community & Community Events</h2>
+                <h3 className="text-lg font-medium" >Building a strong sense of community is essential to our mission. By promoting local events and encouraging participation, we foster connections among residents and strengthen the bonds that unite us.</h3>
+             </div>
+             
+             
+            
+
+
+            </ul> 
+            
+            
+            
+           
+            </div>
+
+
+
+
+<div className="absolute  bg-[#37246F] w-[80%]  h-[95vh] mb-8 right-0 "/>
+
+
+</div> */}
+
+
+
 
 
 

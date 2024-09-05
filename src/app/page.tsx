@@ -28,7 +28,7 @@ export default function Home() {
 
    
 
-    <VisionMission/>
+    {/* <VisionMission/> */}
 
     <BrandsLogoSlider/>
     <InfoCards/>
@@ -40,7 +40,7 @@ export default function Home() {
 
     <BlogIntro/>
   
-    <HomeChart/>
+    {/* <HomeChart/> */}
     
     <FlipBook/>
     

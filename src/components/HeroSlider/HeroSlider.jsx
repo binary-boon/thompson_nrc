@@ -6,9 +6,10 @@ import {Button, ButtonGroup} from "@nextui-org/react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import canadianimg from "../../../public/candian-imgs.jpg";
-import communityimg from "../../../public/tnrc-capacity.jpg";
+import communityimg from "../../../public/tnrc-capacity-building.jpg";
 import familyimg from "../../../public/family-img.jpg"
 import wolfimg from "../../../public/tnrc-wolf.jpg"
+import grantsFund from "../../../public/grants-fund.jpg"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -33,10 +34,10 @@ return(<>
         }}
         modules={[Autoplay,Navigation, Pagination]}
 
-        autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
+        // autoplay={{
+        //     delay: 2500,
+        //     disableOnInteraction: false,
+        //   }}
     
 
         className="flex font-Mulish w-[100%] h-screen justify-center   ">
@@ -45,19 +46,19 @@ return(<>
         
 
         <SwiperSlide className=" relative flex justify-center w-[100%] object-fill ">
-            <div className="absolute h-[100%] w-[50%] bg-gradient-to-r from-[#ff1b6b] "/>
+            <div className="absolute h-[100%] w-[50%] xs:w-[80%] md:w-[60%] lg:w-[60%]   bg-gradient-to-r from-[#ff1b6b] "/>
 
 <Image className=" relative block object-fill mix-blend-overlay xs:h-screen xs:object-cover  "  src={canadianimg}  alt="canadian image tnrc" />
-<div className="flex h-[50%] justify-center flex-col absolute top-1/4 left-16 ">
+<div className="flex xs:h-[60%] h-[50%] justify-center xs:justify-between flex-col absolute  xs:top-8 xs:ml-4 xs:pr-6 md:top-1/4 md:left-16 lg:left-16 lg:top-1/4 ">
     
        
-            <div className="flex flex-col mb-7 "><h2 className=" font-Mulish text-3xl font-bold py-1 text-white ml-2">Celebrating Our Community & Culture</h2>
-            <h1 className="text-8xl text-white font-bold">Community Pride</h1></div>
+            <div className="flex flex-col mb-7 "><h2 className=" font-Mulish xs:text-2xl sm:text-xl md:text-3xl  lg:text-3xl font-bold py-1 text-white xs:ml-0 xs:pr-3 sm:ml-2 md:ml-2 lg:ml-2 ">Celebrating Our Community & Culture</h2>
+            <h1 className="text-8xl text-white font-bold xs:text-5xl sm:text-3xl md:text-5xl lg:text-8xl  ">Community Pride</h1></div>
             
-        
+
        
             <div className="flex mb-7 ml-2 ">
-           <ul className="text-2xl font-extrabold text-[#f4f269] ">
+           <ul className=" xs:text-xl  md:text-2xl lg:text-3xl font-bold text-[#f4f269] ">
             <li>
             Cleanliness and Beautification
             </li>
@@ -97,66 +98,69 @@ return(<>
 
 
 
-<SwiperSlide className="flex justify-center w-[100%] object-fill  ">
 
-<Image className=" relative block object-fill mix-blend-multiply  "  src={wolfimg}  alt="canadian image tnrc" />
-<div className="absolute top-1/3 left-10">
-    {/* <Card isBlurred className="bg:blur-sm bg-gradient-to-r from-[#12396ba9] to-[#d91ef6a9] pl-5 pt-7 pb-5 pr-6 p-2 "> */}
-    <Card isBlurred className="bg:blur-sm bg-gradient-to-r from-[#2a2a15a9] to-[#806532a9] pl-5 pt-7 pb-5 pr-6 p-2 ">
-        <CardHeader>
-            <div><h2 className=" font-Mulish text-xl py-1 text-[#FFFFFF] font-extrabold]">Celebrating Our Community & Culture</h2>
-            <h1 className="text-7xl text-white font-bold">Small Grants Fund</h1></div>
+
+
+<SwiperSlide className=" relative flex justify-center w-[100%] object-fill ">
+            <div className="absolute h-[100%] w-[50%] xs:w-[70%] bg-gradient-to-r z-10 from-[#3f4d32] "/>
+
+<Image className=" relative block object-fill mix-blend-overlay xs:h-screen xs:object-cover  "  src={grantsFund}  alt="canadian image tnrc" />
+<div className="flex xs:h-[50%] h-[50%] justify-center xs:justify-between flex-col absolute  xs:top-8 xs:ml-4 xs:pr-6 md:top-1/4 md:left-16 lg:left-16 lg:top-1/4 z-20 ">
+    
+       
+            <div className="flex flex-col mb-7 "><h2 className=" font-Mulish xs:text-2xl sm:text-xl md:text-3xl  lg:text-3xl font-bold py-1 text-white xs:ml-0 xs:pr-3 sm:ml-2 md:ml-2 lg:ml-2 ">Celebrating Our Community & Culture</h2>
+            <h1 className="text-8xl text-white font-bold xs:text-5xl sm:text-3xl md:text-5xl lg:text-8xl  ">Small Grants Fund</h1></div>
             
-            
-        </CardHeader>
-        <CardBody>
-            <div>
-           <ul className="text-xl font-bold text-[#F7DF76]">
-            <li>
+
+       
+            <div className="flex mb-7 ml-2 ">
+           <ul className=" xs:text-xl  md:text-2xl lg:text-3xl font-bold text-[#f4f269] xs:pr-6 ">
+          
+            <li className="py-1">
             Cultural events
             </li>
 
             
             
 
-            <li>
+            <li className="py-1">
             Community gardening projects
             </li>
 
-            <li>
+            <li className="py-1">
             Low income recreational activities
             </li>
 
-            <li>
+            <li className="py-1">
             Community beautification initiatives
             </li>
 
-            <li>
+            <li className="py-1">
             Programs that engage elders and seniors
             </li>
 
-            <li>
+            <li className="py-1">
             Mentorship/Apprenticeship programs for youths
             </li>
 
-            <li>
+            <li className="py-1">
             Programs that help assist in the area of community safety
             </li>
             
             
-             </ul> 
-
+             
+            </ul>
             </div>
         
 
-        </CardBody>
+        
 
-        <CardFooter>
+        <div className="flex ml-2"> 
         <Button className=" font-Mulish font-bold text-2xl text-white bg-gradient-to-r from-[#0b3866] to-[#e81cff] p-6" variant="flat">
              Know More
-          </Button>
-        </CardFooter>
-    </Card></div> 
+          </Button></div>
+        
+    </div> 
 
 </SwiperSlide>
 
@@ -167,26 +171,21 @@ return(<>
 
 
 
-
-
-
-
-
-
 <SwiperSlide className=" relative flex justify-center w-[100%] object-fill ">
-            <div className="absolute z-10 h-[100%] w-[50%] bg-gradient-to-r from-[#5cb270] "/>
+            <div className="absolute h-[100%] w-[50%] xs:w-[80%] bg-gradient-to-r z-10 from-[#5cb270] "/>
 
-<Image className=" relative block object-fill    "  src={familyimg}  alt="canadian image tnrc" />
-<div className="flex h-[50%] justify-center flex-col absolute top-1/4 left-16 z-20 ">
+<Image className=" relative block object-fill mix-blend-overlay xs:h-screen xs:object-cover  "  src={familyimg}  alt="canadian image tnrc" />
+<div className="flex xs:h-[80%] h-[50%] lg:h-[60%] justify-center lg:justify-between md:justify-center xs:justify-between flex-col absolute  xs:top-8 xs:ml-4 xs:pr-6 md:top-1/4 md:left-16 lg:left-16 lg:top-1/4 z-20 ">
     
        
-            <div className="flex flex-col mb-7 "><h2 className=" font-Mulish text-3xl font-bold py-1 text-white ml-2">Celebrating Our Community & Culture</h2>
-            <h1 className="text-8xl text-white font-bold">Families First</h1></div>
+            <div className="flex flex-col mb-7 "><h2 className=" font-Mulish xs:text-2xl sm:text-xl md:text-3xl  lg:text-3xl font-bold py-1 text-white xs:ml-0 xs:pr-3 sm:ml-2 md:ml-2 lg:ml-2 ">Celebrating Our Community & Culture</h2>
+            <h1 className="text-8xl text-white font-bold xs:text-5xl sm:text-3xl md:text-5xl lg:text-8xl  ">Families First</h1></div>
             
-        
+
        
             <div className="flex mb-7 ml-2 ">
-           <ul className="text-2xl font-extrabold text-[#f4f269] ">
+           <ul className=" xs:text-xl  md:text-2xl lg:text-3xl font-bold text-[#f4f269] xs:pr-6 ">
+          
            <li >
                     Affordable housing
                     </li>
@@ -206,8 +205,9 @@ return(<>
                     Promoting and raising awareness of issues facing families 
                     </li>
             
-             </ul> 
-
+            
+             
+            </ul>
             </div>
         
 
@@ -228,74 +228,21 @@ return(<>
 
 
 
-{/* bg-gradient-to-r from-[#f4f269] to-[#5cb270]
-
-
-        <SwiperSlide className="flex w-[100%]  ">
-        <Image className=" relative block object-fill  "  src={familyimg}  alt="family image tnrc" />
-        <div className="absolute h-[100%] w-[50%] bg-gradient-to-r from-[#5cb270] "/>
-        <div className="absolute top-1/3 left-10">
-            <Card isBlurred className="bg:blur-sm  pl-4 py-7 pr-6">
-                <CardHeader>
-                    <div><h2 className="font-Mulish text-xl font-bold py-1 text-black">The Backbone of a Healthy Community are Healthy Families</h2>
-                    <h1 className="text-7xl text-black font-bold  ">Families First</h1></div>
-                    
-                </CardHeader>
-                <CardBody>
-                    <div>
-                   <ul className="text-xl font-bold">
-                    <li >
-                    Affordable housing
-                    </li>
-
-                    
-                    
-
-                    <li>
-                    Community safety initiatives
-                    </li>
-
-                    <li>
-                    Youth programming
-                    </li>
-
-                    <li>
-                    Promoting and raising awareness of issues facing families 
-                    </li>
-                    
-                     </ul> 
-
-                    </div>
-                
-
-                </CardBody>
-
-                <CardFooter>
-                <Button className="bg-[#5cb270] font-Mulish text-black font-bold text-xl hover:text-white " variant="flat">
-                     Learn More
-                  </Button>
-                </CardFooter>
-            </Card></div> 
-        
-        
-        </SwiperSlide> */}
-
-
-
 <SwiperSlide className=" relative flex justify-center w-[100%] object-fill ">
-<div className="absolute h-[100%] w-[50%] bg-gradient-to-r z-10 from-[#9F7D71] "/>
+            <div className="absolute h-[100%] w-[50%] xs:w-[80%] bg-gradient-to-r z-10 from-[#2c5079] "/>
 
-<Image className=" relative block object-fill  "  src={communityimg}  alt="canadian image tnrc" />
-<div className="flex h-[50%] justify-center flex-col absolute top-1/4 left-16 z-20 ">
+<Image className=" relative block object-fill mix-blend-overlay xs:h-screen xs:object-cover  "  src={communityimg}  alt="canadian image tnrc" />
+<div className="flex xs:h-[80%] h-[50%] lg:h-[60%] justify-center xs:justify-between flex-col absolute  xs:top-8 xs:ml-4 xs:pr-6 md:top-1/4 md:left-16 lg:left-16 lg:top-1/4 z-20 ">
     
        
-            <div className="flex flex-col mb-7 "><h2 className=" font-Mulish text-3xl font-bold py-1 text-white ml-2">Leveraging and Supporting our Volunteer Base</h2>
-            <h1 className="text-8xl text-[#97384C] font-bold">Capacity Building</h1></div>
+            <div className="flex flex-col mb-7 "><h2 className=" font-Mulish xs:text-2xl sm:text-xl md:text-3xl  lg:text-3xl font-bold py-1 text-white xs:ml-0 xs:pr-3 sm:ml-2 md:ml-2 lg:ml-2 ">Celebrating Our Community & Culture</h2>
+            <h1 className="text-8xl text-white font-bold xs:text-5xl sm:text-3xl md:text-5xl lg:text-8xl  ">Capacity Building</h1></div>
             
-        
+
        
             <div className="flex mb-7 ml-2 ">
-           <ul className="text-2xl font-extrabold text-[#ffffff] ">
+           <ul className=" xs:text-xl  md:text-2xl lg:text-3xl font-bold text-[#f4f269] xs:pr-6 ">
+          
            <li>
                     Capacity Building Initiatives for Not-for-profits
                     </li>
@@ -315,8 +262,9 @@ return(<>
                     Charities & Co-ops
                     </li>
             
-             </ul> 
-
+            
+             
+            </ul>
             </div>
         
 
@@ -337,127 +285,6 @@ return(<>
 
 
 
-
-
-
-
-        {/* <SwiperSlide className="flex w-[100%] ">
-            
-            <Image className="block object-fill  mix-blend-overlay" src={communityimg}  alt="community image tnrc" />
-
-            <div className="absolute top-1/3 left-10 w-max">
-            <Card isBlurred className="isBlurred bg:blur-sm bg-gradient-to-r from-[#9bf8f4] to-[#6f7bf7] pl-4 py-7 pr-6">
-                <CardHeader>
-                    <div><h2 className="font-Mulish text-xl font-bold py-2 text-black ml-2">Leveraging and Supporting our Volunteer Base</h2>
-                    <h1 className="text-7xl text-black font-bold">Capacity Building</h1></div>
-                    
-                </CardHeader>
-                <CardBody>
-                    <div>
-                   <ul className="text-xl font-bold">
-                    <li>
-                    Capacity Building Initiatives for Not-for-profits
-                    </li>
-
-                    
-                    
-
-                    <li>
-                    Social Enterprises
-                    </li>
-
-                    <li>
-                    Cultural Programming
-                    </li>
-
-                    <li>
-                    Charities & Co-ops
-                    </li>
-                    
-                     </ul> 
-
-                    </div>
-                
-
-                </CardBody>
-
-                <CardFooter>
-                <Button className="bg-[#6f7bf7] font-Mulish text-white font-bold text-2xl p-4 hover:text-white" variant="flat">
-                     Get in Touch
-                  </Button>
-                </CardFooter>
-            </Card></div> 
-        
-        
-        </SwiperSlide> */}
-
-
-
-
-        <SwiperSlide className="flex justify-center w-[100%] object-fill  ">
-
-<Image className=" relative block object-fill mix-blend-multiply  "  src={canadianimg}  alt="canadian image tnrc" />
-<div className="absolute top-1/3 left-10">
-    <Card isBlurred className="bg:blur-sm bg-gradient-to-r from-[#12396ba9] to-[#d91ef6a9] pl-5 pt-7 pb-5 pr-6 p-2 ">
-        <CardHeader>
-            <div><h2 className=" font-Mulish text-xl py-1 text-[#FFFFFF] font-extrabold]">Leveraging and Supporting our Volunteer Base</h2>
-            <h1 className="text-7xl text-white font-bold">Community Pride</h1></div>
-            
-        </CardHeader>
-        <CardBody>
-            <div>
-           <ul className="text-xl font-bold text-[#F7DF76]">
-
-           
-
-            <li>
-            Capacity Building Initiatives for Not-for-profits
-            </li>
-
-            
-            
-
-            <li>
-                    Social Enterprises
-                    </li>
-
-                    <li>
-                    Cultural Programming
-                    </li>
-
-                    <li>
-                    Charities & Co-ops
-                    </li>
-            
-             </ul> 
-
-            </div>
-        
-
-        </CardBody>
-
-        <CardFooter>
-        <Button className="bg-[#ffffff] font-Mulish font-bold text-xl hover:text-black hover:bg-[#F7DF76]  " >
-             Know More
-          </Button>
-        </CardFooter>
-    </Card></div> 
-
-</SwiperSlide>           
-
-
-
-
-           
-
-
-
-
-
-
-
-
-
         
       </Swiper>
 </>);
@@ -465,45 +292,3 @@ return(<>
 
 
 
-
-{/* <Card isBlurred className="pl-3 pr-4 p-2">
-<CardHeader>
-    <div><h2 className="text-xl py-1">Celebrating Our Community & Culture</h2>
-    <h1 className="text-7xl">Community Pride</h1></div>
-    
-</CardHeader>
-<CardBody>
-    <div>
-   <ul className="text-xl">
-    <li>
-    Cleanliness and beautification
-    </li>
-
-    
-    
-
-    <li>
-    Neighbourhood Renewal
-    </li>
-
-    <li>
-    Cultural Programming
-    </li>
-
-    <li>
-    Promoting of community and community events
-    </li>
-    
-     </ul> 
-
-    </div>
-
-
-</CardBody>
-
-<CardFooter>
-<Button color="primary" variant="flat">
-     Know More
-  </Button>
-</CardFooter>
-</Card> */}

@@ -40,9 +40,9 @@ export default function FlipBook() {
 
         </div>
 
-        <div className="flex w-[100%] justify-center rounded-md">
+        <div className="flex w-[100%] xs:w-[90%] justify-center rounded-md">
 
-    <HTMLFlipBook width={600} height={800}>
+    <HTMLFlipBook width={400} height={600} size="fixed" maxHeight={500} >
       <div className="demoPage"><Image src={Page1} alt="TNRC AGM REPORT"/></div>
       <div className="demoPage"><Image src={Page2} alt="TNRC AGM REPORT"/></div>
       <div className="demoPage"><Image src={Page3} alt="TNRC AGM REPORT"/></div>
@@ -76,7 +76,7 @@ export default function FlipBook() {
 
     <div className="flex w-[100] justify-center">
     
-    <Button className="text-3xl w-[50%] font-bold bg-[#ffc971] to-[#0b3866] py-7 text-black  " variant="slate">Download PDF</Button>
+    <Button className="text-3xl xs:w-[100%] md:w-[50%] lg:w-[50%] font-bold bg-[#ffc971] to-[#0b3866] py-7 text-black  " variant="slate">Download PDF</Button>
     </div>
     
     </div>

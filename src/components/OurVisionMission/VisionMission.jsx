@@ -65,12 +65,12 @@ export default function VisionMission(){
 
          
           
-{/* 
+
             
 <div className="flex flex-row w-[100%] h-screen p-8 justify-center">
 
 <div className="flex w-[50%] p-8 ml-7 z-10 ">
-    <Image  className="flex  w-[auto]" src={Mission} alt="Our Values"/>
+    <Image  className="flex  w-[auto]" src={Vision} alt="Our Values"/>
 </div>
 
 <div className="flex flex-end flex-col w-[50%] my-10  z-10 ">
@@ -109,7 +109,7 @@ export default function VisionMission(){
 <div className="absolute  bg-[#37246F] w-[80%]  h-[95vh] mb-8 right-0 "/>
 
 
-</div> */}
+</div>
 
 
 

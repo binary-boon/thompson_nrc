@@ -34,10 +34,10 @@ return(<>
         }}
         modules={[Autoplay,Navigation, Pagination]}
 
-        // autoplay={{
-        //     delay: 2500,
-        //     disableOnInteraction: false,
-        //   }}
+        autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
     
 
         className="flex font-Mulish w-[100%] h-screen justify-center   ">
